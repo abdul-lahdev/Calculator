@@ -1,5 +1,6 @@
 "use strict";
 // Decalting Function
+const buttonZero = document.querySelector(".button-zero");
 const buttonOne = document.querySelector(".button-one");
 const buttonTwo = document.querySelector(".button-two");
 const buttonThree = document.querySelector(".button-three");
@@ -69,6 +70,9 @@ buttonEight.addEventListener("click", function () {
 });
 buttonNine.addEventListener("click", function () {
   addValue(9);
+});
+buttonZero.addEventListener("click", function () {
+  addValue(0);
 });
 
 buttonPlus.addEventListener("click", function () {
